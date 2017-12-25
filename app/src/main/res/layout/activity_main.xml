@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.coffeequiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/question_margin_bottom"
+            android:background="@color/questionBackground"
+            android:elevation="@dimen/question_elevation"
+            android:orientation="vertical"
+            android:padding="@dimen/question_padding">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/question_margin_bottom"
+                    android:text="@string/question_1_nr"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/question_number_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/question_margin_bottom"
+                    android:text="@string/question_1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/question_number_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RadioGroup
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/answer_1_1" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/answer_1_2" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/answer_1_3" />
+                </RadioGroup>
+
+                <ImageView
+                    android:layout_width="126dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="end"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/map"
+                    android:contentDescription="@string/photo_of_the_map" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/question_margin_bottom"
+            android:background="@color/questionBackground"
+            android:elevation="@dimen/question_elevation"
+            android:orientation="vertical"
+            android:padding="@dimen/question_padding">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/question_margin_bottom"
+                    android:text="@string/question_2_nr"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/question_number_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/question_margin_bottom"
+                    android:text="@string/question_2"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/question_number_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/answer_2_1" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/answer_2_2" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/answer_2_3" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="126dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="end"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/beans"
+                    android:contentDescription="@string/photo_of_coffee_beans" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/question_margin_bottom"
+            android:background="@color/questionBackground"
+            android:elevation="@dimen/question_elevation"
+            android:orientation="vertical"
+            android:padding="@dimen/question_padding">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/question_margin_bottom"
+                    android:text="@string/question_3_nr"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/question_number_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/question_margin_bottom"
+                    android:text="@string/question_3"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/question_number_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RadioGroup
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/answer_3_1" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/answer_3_2" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/answer_3_3" />
+                </RadioGroup>
+
+                <ImageView
+                    android:layout_width="126dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="right"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/cup" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/question_margin_bottom"
+            android:background="@color/questionBackground"
+            android:elevation="@dimen/question_elevation"
+            android:orientation="vertical"
+            android:padding="@dimen/question_padding">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/question_margin_bottom"
+                    android:text="@string/question_4_nr"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/question_number_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/question_margin_bottom"
+                    android:text="@string/question_4"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/question_number_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/answer_4_1" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/answer_4_2" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/answer_4_3" />
+                </RadioGroup>
+
+                <ImageView
+                    android:layout_width="126dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="right"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/leaf" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/question_margin_bottom"
+            android:background="@color/questionBackground"
+            android:elevation="@dimen/question_elevation"
+            android:orientation="vertical"
+            android:padding="@dimen/question_padding">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/question_margin_bottom"
+                    android:text="@string/question_5_nr"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/question_number_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/question_margin_bottom"
+                    android:text="@string/question_5"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/question_number_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Name"
+                    android:layout_marginRight="12dp"
+                    android:inputType="textCapWords"/>
+
+                <ImageView
+                    android:layout_width="126dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="right"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/grinder" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
