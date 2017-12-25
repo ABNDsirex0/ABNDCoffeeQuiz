@@ -77,8 +77,8 @@
                     android:layout_height="95dp"
                     android:layout_gravity="end"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/map"
-                    android:contentDescription="@string/photo_of_the_map" />
+                    android:contentDescription="@string/photo_of_the_map"
+                    android:src="@drawable/map" />
 
 
             </LinearLayout>
@@ -124,10 +124,10 @@
 
 
                 <LinearLayout
-                    android:orientation="vertical"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:orientation="vertical">
 
                     <CheckBox
                         android:layout_width="wrap_content"
@@ -150,8 +150,8 @@
                     android:layout_height="95dp"
                     android:layout_gravity="end"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/beans"
-                    android:contentDescription="@string/photo_of_coffee_beans" />
+                    android:contentDescription="@string/photo_of_coffee_beans"
+                    android:src="@drawable/beans" />
 
 
             </LinearLayout>
@@ -220,8 +220,9 @@
                 <ImageView
                     android:layout_width="126dp"
                     android:layout_height="95dp"
-                    android:layout_gravity="right"
+                    android:layout_gravity="end"
                     android:adjustViewBounds="true"
+                    android:contentDescription="@string/photo_of_coffee"
                     android:src="@drawable/cup" />
 
 
@@ -268,8 +269,9 @@
 
 
                 <RadioGroup
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
                     android:layout_weight="1">
 
                     <RadioButton
@@ -291,8 +293,9 @@
                 <ImageView
                     android:layout_width="126dp"
                     android:layout_height="95dp"
-                    android:layout_gravity="right"
+                    android:layout_gravity="end"
                     android:adjustViewBounds="true"
+                    android:contentDescription="@string/photo_of_coffee_leaf"
                     android:src="@drawable/leaf" />
 
 
@@ -330,33 +333,28 @@
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/question_number_size"
                     android:textStyle="bold" />
-
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-
                 <EditText
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
                     android:layout_weight="1"
-                    android:hint="Name"
-                    android:layout_marginRight="12dp"
-                    android:inputType="textCapWords"/>
+                    android:hint="@string/name"
+                    android:inputType="textCapWords" />
 
                 <ImageView
                     android:layout_width="126dp"
                     android:layout_height="95dp"
-                    android:layout_gravity="right"
+                    android:layout_gravity="end"
                     android:adjustViewBounds="true"
+                    android:contentDescription="@string/picture_of_grinder"
                     android:src="@drawable/grinder" />
-
-
             </LinearLayout>
         </LinearLayout>
-
     </LinearLayout>
-
 </ScrollView>

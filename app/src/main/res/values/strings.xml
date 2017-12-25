@@ -17,7 +17,7 @@
     <string name="question_3">Which country consumes the most coffee per capita?</string>
     <string name="answer_3_1">Finland</string>
     <string name="answer_3_2">Brasil</string>
-    <string name="answer_3_3">Italiy</string>
+    <string name="answer_3_3">Italy</string>
 
     <string name="question_4_nr">3.&#160;</string>
     <string name="question_4">How do coffee beans grow?</string>
@@ -29,4 +29,8 @@
     <string name="question_5">What\'s your name?</string>
     <string name="photo_of_the_map">photo of the map</string>
     <string name="photo_of_coffee_beans">photo of coffee beans</string>
+    <string name="photo_of_coffee">photo of coffe and notebook</string>
+    <string name="photo_of_coffee_leaf">photo of coffee leaf</string>
+    <string name="picture_of_grinder">picture of grinder</string>
+    <string name="name">Name</string>
 </resources>
