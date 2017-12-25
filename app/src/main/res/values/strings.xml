@@ -1,31 +1,31 @@
 <resources>
     <string name="app_name">Coffee Quiz</string>
-    <string name="question_1_nr">1.&#160;</string>
+    <string name="question_1_nr" translatable="false">1.&#160;</string>
     <string name="question_placeholder">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
     <string name="question_1">Where was coffee first discovered?</string>
     <string name="answer_1_1">Ethiopia</string>
     <string name="answer_1_2">Turkey</string>
     <string name="answer_1_3">Brasil</string>
 
-    <string name="question_2_nr">2.&#160;</string>
+    <string name="question_2_nr" translatable="false">2.&#160;</string>
     <string name="question_2">Which of these are the types of coffee bean?</string>
     <string name="answer_2_1">arabica</string>
     <string name="answer_2_2">robusta</string>
     <string name="answer_2_3">ristretto</string>
 
-    <string name="question_3_nr">3.&#160;</string>
+    <string name="question_3_nr" translatable="false">3.&#160;</string>
     <string name="question_3">Which country consumes the most coffee per capita?</string>
     <string name="answer_3_1">Finland</string>
     <string name="answer_3_2">Brasil</string>
     <string name="answer_3_3">Italy</string>
 
-    <string name="question_4_nr">3.&#160;</string>
+    <string name="question_4_nr" translatable="false">4.&#160;</string>
     <string name="question_4">How do coffee beans grow?</string>
     <string name="answer_4_1">on shrubs or small trees</string>
     <string name="answer_4_2">on big trees</string>
     <string name="answer_4_3">at the roots of coffee plant</string>
 
-    <string name="question_5_nr">5.&#160;</string>
+    <string name="question_5_nr" translatable="false">5.&#160;</string>
     <string name="question_5">What\'s your name?</string>
     <string name="photo_of_the_map">photo of the map</string>
     <string name="photo_of_coffee_beans">photo of coffee beans</string>

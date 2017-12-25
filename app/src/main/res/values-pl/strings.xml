@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz kawowy</string>
+    <string name="question_1">"Kawę wynaleziono w "</string>
+    <string name="answer_1_1">Etiopii</string>
+    <string name="answer_1_2">Turcji</string>
+    <string name="answer_1_3">Brazylii</string>
+    <string name="question_2">Które z poniższych są nazwami gatunków ziaren kawy</string>
+    <string name="answer_2_1">arabika</string>
+    <string name="answer_2_2">robusta</string>
+    <string name="answer_2_3">ristretto</string>
+    <string name="question_3">W którym kraju pije się najwięcej kawy</string>
+    <string name="answer_3_1">Finlandia</string>
+    <string name="answer_3_2">Brazylia</string>
+    <string name="answer_3_3">Włochy</string>
+    <string name="question_4">Jak rośnie kawa</string>
+    <string name="answer_4_1">Na krzewach/malych drzewach</string>
+    <string name="answer_4_2">na wysokich drzewach</string>
+    <string name="answer_4_3">w korzeniach roślin kawowych</string>
+    <string name="question_5">Jak masz na imię</string>
+    <string name="photo_of_the_map">zdjęcie mapy</string>
+    <string name="photo_of_coffee_beans">zdjęcie ziaren kawy</string>
+    <string name="photo_of_coffee">zdjęcie kawy i notatnika</string>
+    <string name="photo_of_coffee_leaf">zdjęcie liści kawy</string>
+    <string name="picture_of_grinder">zdjęcie młynka</string>
+    <string name="name">imię</string>
+</resources>
