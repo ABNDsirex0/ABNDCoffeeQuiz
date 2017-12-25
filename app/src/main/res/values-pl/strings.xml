@@ -24,4 +24,6 @@
     <string name="photo_of_coffee_leaf">zdjęcie liści kawy</string>
     <string name="picture_of_grinder">zdjęcie młynka</string>
     <string name="name">imię</string>
+    <string name="check">sprawdź</string>
+    <string name="share">podziel się</string>
 </resources>

@@ -33,4 +33,6 @@
     <string name="photo_of_coffee_leaf">photo of coffee leaf</string>
     <string name="picture_of_grinder">picture of grinder</string>
     <string name="name">Name</string>
+    <string name="check">check</string>
+    <string name="share">share</string>
 </resources>
