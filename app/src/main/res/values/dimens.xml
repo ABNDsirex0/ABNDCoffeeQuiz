@@ -5,7 +5,5 @@
     <dimen name="question_elevation">8dp</dimen>
     <dimen name="question_margin_bottom">16dp</dimen>
     <dimen name="question_padding">16dp</dimen>
-
-
 </resources>
 

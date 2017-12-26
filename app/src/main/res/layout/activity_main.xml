@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/question_margin_bottom"
-            android:background="@color/questionBackground"
+            android:background="@drawable/bg_question"
             android:elevation="@dimen/question_elevation"
             android:orientation="vertical"
             android:padding="@dimen/question_padding">
@@ -88,7 +88,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/question_margin_bottom"
-            android:background="@color/questionBackground"
+            android:background="@drawable/bg_question"
             android:elevation="@dimen/question_elevation"
             android:orientation="vertical"
             android:padding="@dimen/question_padding">
@@ -161,7 +161,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/question_margin_bottom"
-            android:background="@color/questionBackground"
+            android:background="@drawable/bg_question"
             android:elevation="@dimen/question_elevation"
             android:orientation="vertical"
             android:padding="@dimen/question_padding">
@@ -233,7 +233,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/question_margin_bottom"
-            android:background="@color/questionBackground"
+            android:background="@drawable/bg_question"
             android:elevation="@dimen/question_elevation"
             android:orientation="vertical"
             android:padding="@dimen/question_padding">
@@ -306,7 +306,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/question_margin_bottom"
-            android:background="@color/questionBackground"
+            android:background="@drawable/bg_question"
             android:elevation="@dimen/question_elevation"
             android:orientation="vertical"
             android:padding="@dimen/question_padding">
