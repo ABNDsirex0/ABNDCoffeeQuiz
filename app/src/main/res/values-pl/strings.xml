@@ -17,7 +17,7 @@
     <string name="answer_4_1">Na krzewach/malych drzewach</string>
     <string name="answer_4_2">na wysokich drzewach</string>
     <string name="answer_4_3">w korzeniach roślin kawowych</string>
-    <string name="question_5">Jak masz na imię</string>
+    <string name="question_5">W którym roku Angelo Moriondo opatentował i zademonstrował pierwszą maszynę do espresso?</string>
     <string name="photo_of_the_map">zdjęcie mapy</string>
     <string name="photo_of_coffee_beans">zdjęcie ziaren kawy</string>
     <string name="photo_of_coffee">zdjęcie kawy i notatnika</string>
@@ -26,4 +26,8 @@
     <string name="name">imię</string>
     <string name="check">sprawdź</string>
     <string name="share">podziel się</string>
+    <string name="question_6">Jak masz na imię?</string>
+    <string name="year">rok</string>
+    <string name="picture_of_machina">zdjęcie ekspresu ciśnieniowego</string>
+    <string name="question_1_answer">Kawę wynaleziono w Etiopii.</string>
 </resources>

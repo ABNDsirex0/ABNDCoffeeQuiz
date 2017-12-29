@@ -1,23 +1,26 @@
 <resources>
     <string name="app_name">Coffee Quiz</string>
     <string name="question_1_nr" translatable="false">1.&#160;</string>
-    <string name="question_placeholder">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="question_placeholder" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
     <string name="question_1">Where was coffee first discovered?</string>
     <string name="answer_1_1">Ethiopia</string>
     <string name="answer_1_2">Turkey</string>
     <string name="answer_1_3">Brasil</string>
+    <string name="question_1_answer">Coffee was discovered in Ethiopia.</string>
 
     <string name="question_2_nr" translatable="false">2.&#160;</string>
     <string name="question_2">Which of these are the types of coffee bean?</string>
     <string name="answer_2_1">arabica</string>
     <string name="answer_2_2">robusta</string>
     <string name="answer_2_3">ristretto</string>
+    <string name="question_2_answer">Arabica and robusta are types of coffee.</string>
 
     <string name="question_3_nr" translatable="false">3.&#160;</string>
     <string name="question_3">Which country consumes the most coffee per capita?</string>
     <string name="answer_3_1">Finland</string>
     <string name="answer_3_2">Brasil</string>
     <string name="answer_3_3">Italy</string>
+    <string name="question_3_answer">Finland consumes most coffee (per capita)</string>
 
     <string name="question_4_nr" translatable="false">4.&#160;</string>
     <string name="question_4">How do coffee beans grow?</string>
@@ -26,13 +29,19 @@
     <string name="answer_4_3">at the roots of coffee plant</string>
 
     <string name="question_5_nr" translatable="false">5.&#160;</string>
-    <string name="question_5">What\'s your name?</string>
+    <string name="question_5">In which year Angelo Moriondo patented and demonstrated the first espresso machine?</string>
+
+    <string name="question_6_nr" translatable="false">6.&#160;</string>
+    <string name="question_6">What\'s your name?</string>
+
     <string name="photo_of_the_map">photo of the map</string>
     <string name="photo_of_coffee_beans">photo of coffee beans</string>
     <string name="photo_of_coffee">photo of coffe and notebook</string>
     <string name="photo_of_coffee_leaf">photo of coffee leaf</string>
     <string name="picture_of_grinder">picture of grinder</string>
+    <string name="picture_of_machina">picture of espresso machina</string>
     <string name="name">Name</string>
     <string name="check">check</string>
     <string name="share">share</string>
+    <string name="year">Year</string>
 </resources>

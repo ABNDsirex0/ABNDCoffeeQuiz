@@ -57,6 +57,7 @@
                     android:layout_weight="1">
 
                     <RadioButton
+                        android:id="@+id/q1a1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/answer_1_1" />
@@ -130,16 +131,19 @@
                     android:orientation="vertical">
 
                     <CheckBox
+                        android:id="@+id/q2a1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/answer_2_1" />
 
                     <CheckBox
+                        android:id="@+id/q2a2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/answer_2_2" />
 
                     <CheckBox
+                        android:id="@+id/q2a3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/answer_2_3" />
@@ -202,6 +206,7 @@
                     android:layout_weight="1">
 
                     <RadioButton
+                        android:id="@+id/q3a1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/answer_3_1" />
@@ -344,6 +349,62 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="12dp"
                     android:layout_weight="1"
+                    android:hint="@string/year"
+                    android:inputType="number"
+                    android:maxLength="4"/>
+
+                <ImageView
+                    android:layout_width="126dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="end"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/picture_of_machina"
+                    android:src="@drawable/machina" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/question_margin_bottom"
+            android:background="@drawable/bg_question"
+            android:elevation="@dimen/question_elevation"
+            android:orientation="vertical"
+            android:padding="@dimen/question_padding">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/question_margin_bottom"
+                    android:text="@string/question_6_nr"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/question_number_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/question_margin_bottom"
+                    android:text="@string/question_6"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/question_number_size"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="1"
                     android:hint="@string/name"
                     android:inputType="textCapWords" />
 
@@ -365,12 +426,14 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckPress"
                 android:text="@string/check" />
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onSharePress"
                 android:text="@string/share" />
         </LinearLayout>
     </LinearLayout>
