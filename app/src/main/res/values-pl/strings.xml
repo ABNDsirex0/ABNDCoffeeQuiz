@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Quiz kawowy</string>
     <string name="question_1">"Kawę wynaleziono w "</string>
     <string name="answer_1_1">Etiopii</string>
@@ -29,5 +29,12 @@
     <string name="question_6">Jak masz na imię?</string>
     <string name="year">rok</string>
     <string name="picture_of_machina">zdjęcie ekspresu ciśnieniowego</string>
-    <string name="question_1_answer">Kawę wynaleziono w Etiopii.</string>
+    <string name="question_1_answer">1. Kawę odkryto w Etiopii.</string>
+    <string name="question_2_answer">2. Gatunki kawy to arabica i robusta</string>
+    <string name="question_3_answer">3. Najwięcej kawy piją Finowie</string>
+    <string name="question_4_answer">4. Kawa rośnie mna krzewach/małych drzewach</string>
+    <string name="question_5_answer">5. Pierwsza maszyna do espresso została zaprezentowana i opatentowana przez Angelo Moriondo w roku 1884</string>
+    <string name="good_answers">Poprawne odpowiedzi na  <ns1:g id="good_answers">%s</ns1:g> z 5 pytań.</string>
+    <string name="good_answer">dobra odpowiedź</string>
+    <string name="hello">Witaj <ns1:g example="Joe" id="name">%s</ns1:g>!</string>
 </resources>

@@ -1,47 +1,80 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--Title of the app -->
     <string name="app_name">Coffee Quiz</string>
+    <!-- Number of 1 question -->
     <string name="question_1_nr" translatable="false">1.&#160;</string>
-    <string name="question_placeholder" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+
+    <!-- question 1 -->
     <string name="question_1">Where was coffee first discovered?</string>
+    <!-- answers for question -->
     <string name="answer_1_1">Ethiopia</string>
     <string name="answer_1_2">Turkey</string>
     <string name="answer_1_3">Brasil</string>
-    <string name="question_1_answer">Coffee was discovered in Ethiopia.</string>
+    <string name="question_1_answer">1. Coffee was discovered in Ethiopia.</string>
 
+    <!-- Number of 2 question -->
     <string name="question_2_nr" translatable="false">2.&#160;</string>
-    <string name="question_2">Which of these are the types of coffee bean?</string>
+    <!-- question 2 -->
+    <string name="question_2">"Which of these are the names of the most common types of coffee bean? "</string>
     <string name="answer_2_1">arabica</string>
     <string name="answer_2_2">robusta</string>
     <string name="answer_2_3">ristretto</string>
-    <string name="question_2_answer">Arabica and robusta are types of coffee.</string>
+    <string name="question_2_answer">2. Arabica and robusta are types of coffee.</string>
 
+    <!-- Number of 3 question -->
     <string name="question_3_nr" translatable="false">3.&#160;</string>
+    <!-- question 3 -->
     <string name="question_3">Which country consumes the most coffee per capita?</string>
     <string name="answer_3_1">Finland</string>
     <string name="answer_3_2">Brasil</string>
     <string name="answer_3_3">Italy</string>
-    <string name="question_3_answer">Finland consumes most coffee (per capita)</string>
+    <string name="question_3_answer">3. Finland consumes most coffee per capita</string>
 
+    <!-- Number of 4 question -->
     <string name="question_4_nr" translatable="false">4.&#160;</string>
+    <!-- question 4 -->
     <string name="question_4">How do coffee beans grow?</string>
     <string name="answer_4_1">on shrubs or small trees</string>
     <string name="answer_4_2">on big trees</string>
     <string name="answer_4_3">at the roots of coffee plant</string>
+    <string name="question_4_answer">4. Coffee grows on shrubs or small trees.</string>
 
+    <!-- Number of 5 question -->
     <string name="question_5_nr" translatable="false">5.&#160;</string>
+    <!-- question 5 -->
     <string name="question_5">In which year Angelo Moriondo patented and demonstrated the first espresso machine?</string>
-
-    <string name="question_6_nr" translatable="false">6.&#160;</string>
-    <string name="question_6">What\'s your name?</string>
-
-    <string name="photo_of_the_map">photo of the map</string>
-    <string name="photo_of_coffee_beans">photo of coffee beans</string>
-    <string name="photo_of_coffee">photo of coffe and notebook</string>
-    <string name="photo_of_coffee_leaf">photo of coffee leaf</string>
-    <string name="picture_of_grinder">picture of grinder</string>
-    <string name="picture_of_machina">picture of espresso machina</string>
-    <string name="name">Name</string>
-    <string name="check">check</string>
-    <string name="share">share</string>
+    <string name="question_5_answer">5. Angelo Moriondo patented and demonstrated the first espresso machine in 1884.</string>
+    <!-- hint in year question-->
     <string name="year">Year</string>
+
+    <!-- Number of 6 question -->
+    <string name="question_6_nr" translatable="false">6.&#160;</string>
+    <!-- Whats your name question-->
+    <string name="question_6">What\'s your name?</string>
+    <!-- hint in Name question-->
+    <string name="name">Name</string>
+
+    <!-- map image description - from main activity-->
+    <string name="photo_of_the_map">photo of the map</string>
+    <!-- coffee beans image description  - from main activity-->
+    <string name="photo_of_coffee_beans">photo of coffee beans</string>
+    <!-- coffee and notebook image description  - from main activity-->
+    <string name="photo_of_coffee">photo of coffe and notebook</string>
+    <!-- coffee leaf image description  - from main activity-->
+    <string name="photo_of_coffee_leaf">photo of coffee leaf</string>
+    <!--grinder image description  - from main activity-->
+    <string name="picture_of_grinder">picture of grinder</string>
+    <!--espresso machine image description from main activity -->
+    <string name="picture_of_machina">picture of espresso machina</string>
+
+    <!-- text on check button-->
+    <string name="check">check</string>
+    <!-- text on share button text-->
+    <string name="share">share</string>
+
+    <string name="good_answer">Good answer</string>
+    <string name="good_answers">You answered correctly <xliff:g example="2" id="good_answers">%s</xliff:g> out of 5 questions.</string>
+
+    <string name="question_placeholder" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="hello">Hello <xliff:g example="Joe" id="name">%s</xliff:g>!</string>
 </resources>

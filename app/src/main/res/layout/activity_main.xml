@@ -280,6 +280,7 @@
                     android:layout_weight="1">
 
                     <RadioButton
+                        android:id="@+id/q4a1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/answer_4_1" />
@@ -345,6 +346,7 @@
                 android:layout_height="wrap_content">
 
                 <EditText
+                    android:id="@+id/year"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="12dp"
@@ -401,6 +403,7 @@
                 android:layout_height="wrap_content">
 
                 <EditText
+                    android:id="@+id/name"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="12dp"
