@@ -74,8 +74,8 @@
                 </RadioGroup>
 
                 <ImageView
-                    android:layout_width="126dp"
-                    android:layout_height="95dp"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_height"
                     android:layout_gravity="end"
                     android:adjustViewBounds="true"
                     android:contentDescription="@string/photo_of_the_map"
@@ -150,8 +150,8 @@
                 </LinearLayout>
 
                 <ImageView
-                    android:layout_width="126dp"
-                    android:layout_height="95dp"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_height"
                     android:layout_gravity="end"
                     android:adjustViewBounds="true"
                     android:contentDescription="@string/photo_of_coffee_beans"
@@ -223,8 +223,8 @@
                 </RadioGroup>
 
                 <ImageView
-                    android:layout_width="126dp"
-                    android:layout_height="95dp"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_height"
                     android:layout_gravity="end"
                     android:adjustViewBounds="true"
                     android:contentDescription="@string/photo_of_coffee"
@@ -297,8 +297,8 @@
                 </RadioGroup>
 
                 <ImageView
-                    android:layout_width="126dp"
-                    android:layout_height="95dp"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_height"
                     android:layout_gravity="end"
                     android:adjustViewBounds="true"
                     android:contentDescription="@string/photo_of_coffee_leaf"
@@ -356,8 +356,8 @@
                     android:maxLength="4"/>
 
                 <ImageView
-                    android:layout_width="126dp"
-                    android:layout_height="95dp"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_height"
                     android:layout_gravity="end"
                     android:adjustViewBounds="true"
                     android:contentDescription="@string/picture_of_machina"
@@ -412,8 +412,8 @@
                     android:inputType="textCapWords" />
 
                 <ImageView
-                    android:layout_width="126dp"
-                    android:layout_height="95dp"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_height"
                     android:layout_gravity="end"
                     android:adjustViewBounds="true"
                     android:contentDescription="@string/picture_of_grinder"
