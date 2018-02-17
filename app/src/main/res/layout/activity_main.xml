@@ -22,61 +22,7 @@
 
         <include layout="@layout/question_5" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/question_margin_bottom"
-            android:background="@drawable/bg_question"
-            android:elevation="@dimen/question_elevation"
-            android:orientation="vertical"
-            android:padding="@dimen/question_padding">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/question_margin_bottom"
-                    android:text="@string/question_6_nr"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textSize="@dimen/question_number_size"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/question_margin_bottom"
-                    android:text="@string/question_6"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textSize="@dimen/question_number_size"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <EditText
-                    android:id="@+id/name"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="12dp"
-                    android:layout_weight="1"
-                    android:hint="@string/name"
-                    android:inputType="textCapWords" />
-
-                <ImageView
-                    android:layout_width="@dimen/image_width"
-                    android:layout_height="@dimen/image_height"
-                    android:layout_gravity="end"
-                    android:adjustViewBounds="true"
-                    android:contentDescription="@string/picture_of_grinder"
-                    android:src="@drawable/grinder" />
-            </LinearLayout>
-        </LinearLayout>
+        <include layout="@layout/question_6" />
 
         <LinearLayout
             android:layout_width="match_parent"
