@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginBottom="@dimen/question_margin_bottom"
-    android:background="@drawable/bg_question"
-    android:elevation="@dimen/question_elevation"
-    android:orientation="vertical"
-    android:padding="@dimen/question_padding">
+    style="@style/question_box">
 
     <LinearLayout
         android:layout_width="match_parent"

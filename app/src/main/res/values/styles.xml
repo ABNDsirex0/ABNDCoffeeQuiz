@@ -8,4 +8,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="question_box">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/question_margin_bottom</item>
+        <item name="android:background">@drawable/bg_question</item>
+        <item name="android:elevation">@dimen/question_elevation</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/question_padding</item>
+    </style>
+
 </resources>
