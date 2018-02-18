@@ -48,12 +48,9 @@
         </LinearLayout>
 
         <ImageView
-            android:layout_width="@dimen/image_width"
-            android:layout_height="@dimen/image_height"
-            android:layout_gravity="end"
-            android:adjustViewBounds="true"
             android:contentDescription="@string/photo_of_coffee_beans"
-            android:src="@drawable/beans" />
+            android:src="@drawable/beans"
+            style="@style/question_image" />
 
 
     </LinearLayout>

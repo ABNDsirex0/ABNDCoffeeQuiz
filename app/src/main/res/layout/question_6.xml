@@ -30,11 +30,8 @@
             android:inputType="textCapWords" />
 
         <ImageView
-            android:layout_width="@dimen/image_width"
-            android:layout_height="@dimen/image_height"
-            android:layout_gravity="end"
-            android:adjustViewBounds="true"
             android:contentDescription="@string/picture_of_grinder"
-            android:src="@drawable/grinder" />
+            android:src="@drawable/grinder"
+            style="@style/question_image" />
     </LinearLayout>
 </LinearLayout>

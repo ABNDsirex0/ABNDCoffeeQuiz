@@ -45,12 +45,9 @@
         </RadioGroup>
 
         <ImageView
-            android:layout_width="@dimen/image_width"
-            android:layout_height="@dimen/image_height"
-            android:layout_gravity="end"
-            android:adjustViewBounds="true"
             android:contentDescription="@string/photo_of_coffee"
-            android:src="@drawable/cup" />
+            android:src="@drawable/cup"
+            style="@style/question_image" />
 
 
     </LinearLayout>
