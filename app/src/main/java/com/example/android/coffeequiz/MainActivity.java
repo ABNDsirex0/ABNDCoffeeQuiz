@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Count good answers
+     * Counts good answers
      *
      * @return good answers
      */
